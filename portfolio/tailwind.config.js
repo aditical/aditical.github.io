@@ -1,7 +1,7 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
-    "./src/**/*.{js,jsx,ts,tsx}",
+    './src/**/*.{js,jsx,ts,tsx}',
   ],
   theme: {
     screens: {
@@ -11,8 +11,9 @@ module.exports = {
       xl: '1440px',
     },
     colors: {
-      'black': "#232323",
-      'white': "#ffffff"
+      'black-100': '#0a08085c',
+      white: '#ffffff',
+      'black-200': '#232323',
     },
     fontFamily: {
       sans: ['Graphik', 'sans-serif'],
@@ -20,14 +21,13 @@ module.exports = {
     },
     extend: {
       spacing: {
-        '128': '32rem',
-        '144': '36rem',
+        128: '32rem',
+        144: '36rem',
       },
       borderRadius: {
         '4xl': '2rem',
-      }
-    }
+      },
+    },
   },
   plugins: [],
-}
-
+};

@@ -1,6 +1,6 @@
 import React from 'react';
 import LandingPage from './home/landingPage';
-import SideBar from './home/sidebar';
+import SideBar from './sidebar';
 
 function App() {
   return (

@@ -11,10 +11,11 @@ module.exports = {
       xl: '1440px',
     },
     colors: {
+      'black-60': 'rgba(21, 21, 21 ,0.6)',
       'black-87': 'rgba(0, 0, 0 ,0.87)',
       'black-100': '#0a08085c',
       white: '#ffffff',
-      'black-200': 'rgba(16, 16, 16, 0.96)',
+      'black-200': 'rgba(10, 10, 10, 0.90)',
       'black-300': '#232323',
     },
     fontFamily: {

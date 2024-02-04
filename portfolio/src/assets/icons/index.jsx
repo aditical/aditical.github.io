@@ -12,8 +12,10 @@ import { ReactComponent as ReactNativeIcon } from '../svg/reactNative.svg';
 import { ReactComponent as ReduxIcon } from '../svg/redux.svg';
 import { ReactComponent as SassIcon } from '../svg/sass.svg';
 import { ReactComponent as PostgresIcon } from '../svg/postgres.svg';
+import { ReactComponent as GitIcon } from '../svg/git.svg';
+import { ReactComponent as MySqlIcon } from '../svg/mysql.svg';
 
 export {
   // eslint-disable-next-line max-len
-  RailsIcon, TailwindIcon, BootstrapIcon, CssIcon, HtmlIcon, JsIcon, TsIcon, NodeIcon, NpmIcon, ReactIcon, ReactNativeIcon, ReduxIcon, SassIcon, PostgresIcon,
+  RailsIcon, TailwindIcon, BootstrapIcon, CssIcon, HtmlIcon, JsIcon, TsIcon, NodeIcon, NpmIcon, ReactIcon, ReactNativeIcon, ReduxIcon, SassIcon, PostgresIcon, GitIcon, MySqlIcon,
 };

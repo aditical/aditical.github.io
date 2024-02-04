@@ -13,7 +13,8 @@ module.exports = {
     colors: {
       'black-100': '#0a08085c',
       white: '#ffffff',
-      'black-200': '#232323',
+      'black-200': 'rgba(19, 18, 18, 0.96)',
+      'black-300': '#232323',
     },
     fontFamily: {
       sans: ['Graphik', 'sans-serif'],
@@ -89,7 +90,7 @@ module.exports = {
         'fifth-icon': 'fifthIcon 30s infinite linear',
         'sixth-icon': 'sixthIcon 30s infinite linear',
         'seventh-icon': 'seventhIcon 30s infinite linear',
-        'waving-hand': 'wave 2s linear forwards',
+        'waving-hand': 'wave 4s linear forwards',
       },
     },
   },

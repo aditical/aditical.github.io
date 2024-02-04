@@ -11,19 +11,23 @@ module.exports = {
       xl: '1440px',
     },
     colors: {
-      'black-60': 'rgba(21, 21, 21 ,0.8)',
+      'white-50': '#e6dbd8',
+      'black-60': 'rgba(21, 21, 21 ,0.88)',
       'black-87': 'rgba(0, 0, 0 ,0.87)',
       'black-100': '#0a08085c',
       white: '#ffffff',
       'black-200': 'rgba(10, 10, 10, 0.90)',
       'black-300': '#232323',
+      'black-400': '#212122',
       'black-bg': 'rgb(20 21 22)',
+      'black-footer': '#323436',
       'blue-50': '#192e3b',
       'blue-100': '#1b313c',
     },
     fontFamily: {
       sans: ['Graphik', 'sans-serif'],
       serif: ['Merriweather', 'serif'],
+      alata: ['Alata', 'sans-serif'],
     },
     extend: {
       spacing: {
@@ -43,6 +47,10 @@ module.exports = {
           '50%': { transform: 'rotate(10.0deg)' },
           '60%': { transform: 'rotate(0.0deg)' },
           '100%': { transform: 'rotate(0.0deg)' },
+        },
+        popup: {
+          '0%': { transform: 'translateY(50px) scale(0)' },
+          '100%': { transform: 'translateY(0px) scale(1)' },
         },
         firstIcon: {
           '0%': { transform: 'translate(0px) translateY(0px)' },
@@ -112,6 +120,7 @@ module.exports = {
         'sixth-icon': 'sixthIcon 30s infinite linear',
         'seventh-icon': 'seventhIcon 30s infinite linear',
         'waving-hand': 'wave 4s linear forwards',
+        'popup-jam': 'popup 1s cubic-bezier(0.27,0.53,0.28,1.58) forwards',
         // 'flow-icons': 'marquee 60s linear infinite',
         // 'marquee-container': 'fadeIn 1s ease-in-out',
       },

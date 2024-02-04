@@ -8,9 +8,9 @@ import {
   BootstrapIcon, CssIcon, GitIcon, HtmlIcon, JsIcon, MySqlIcon, NodeIcon, NpmIcon, PostgresIcon, RailsIcon, ReactIcon, ReactNativeIcon, ReduxIcon, SassIcon, TailwindIcon, TsIcon,
 } from '../assets/icons';
 
-function ReusableIcon({ icon, top, left }) {
+function ReusableIcon({ icon }) {
   return (
-    <div className="absolute opacity-30 z-10 cursor-pointer hover:opacity-100 hover:scale-150 transition-transform duration-300" style={{ top, left }}>
+    <div className="opacity-20 cursor-pointer hover:opacity-100 hover:scale-125 transition-transform duration-300">
       {icon}
     </div>
   );
@@ -18,35 +18,30 @@ function ReusableIcon({ icon, top, left }) {
 
 function SideBar() {
   return (
-    <div className="h-screen">
-      <div className="relative h-screen bg-cover bg-center">
-        <div className="absolute inset-0 bg-black-87">
-          <ReusableIcon icon={<HtmlIcon width={80} height={80} />} top="2%" />
-          <ReusableIcon icon={<CssIcon width={80} height={80} />} top="10%" left="45%" />
-          <ReusableIcon icon={<BootstrapIcon width={70} height={70} />} top="28%" left="60%" />
-          <ReusableIcon icon={<TailwindIcon width={50} height={50} />} top="75%" left="60%" />
-          <ReusableIcon icon={<SassIcon width={85} height={85} />} top="20%" left="25%" />
-          <ReusableIcon icon={<JsIcon width={70} height={70} />} top="83%" left="58%" />
-          <ReusableIcon icon={<TsIcon width={70} height={70} />} top="34%" left="0" />
-          <ReusableIcon icon={<NpmIcon width={40} height={40} />} top="85%" left="10%" />
-          <ReusableIcon icon={<ReactIcon width={80} height={80} />} top="54%" left="55%" />
-          <ReusableIcon icon={<ReactNativeIcon width={60} height={60} />} top="61%" left="13%" />
-          <ReusableIcon icon={<ReduxIcon width={50} height={50} />} top="65%" left="70%" />
-          <ReusableIcon icon={<NodeIcon width={65} height={65} />} top="3%" left="52%" />
-          <ReusableIcon icon={<RailsIcon width={80} height={80} />} top="91%" left="25%" />
-          <ReusableIcon icon={<PostgresIcon width={58} height={58} />} top="47%" left="28%" />
-          <ReusableIcon icon={<GitIcon width={80} height={80} />} top="73%" left="0" />
-          <ReusableIcon icon={<MySqlIcon width={60} height={60} />} top="38%" left="65%" />
-        </div>
-      </div>
+
+    <div className=" flex flex-row gap-7 items-center">
+      <ReusableIcon icon={<HtmlIcon width={70} height={70} />} />
+      <ReusableIcon icon={<CssIcon width={70} height={70} />} />
+      <ReusableIcon icon={<SassIcon width={70} height={70} />} />
+      <ReusableIcon icon={<JsIcon width={70} height={70} />} />
+      <ReusableIcon icon={<TailwindIcon width={70} height={70} />} />
+      <ReusableIcon icon={<BootstrapIcon width={70} height={70} />} />
+      <ReusableIcon icon={<ReactIcon width={65} height={65} />} />
+      <ReusableIcon icon={<ReduxIcon width={65} height={65} />} />
+      <ReusableIcon icon={<NpmIcon width={70} height={70} />} />
+      <ReusableIcon icon={<TsIcon width={70} height={70} />} />
+      <ReusableIcon icon={<ReactNativeIcon width={70} height={70} />} />
+      <ReusableIcon icon={<NodeIcon width={65} height={65} />} />
+      <ReusableIcon icon={<PostgresIcon width={65} height={65} />} />
+      <ReusableIcon icon={<RailsIcon width={70} height={70} />} />
+      <ReusableIcon icon={<GitIcon width={70} height={70} />} />
+      <ReusableIcon icon={<MySqlIcon width={65} height={65} />} />
     </div>
   );
 }
 
 ReusableIcon.propTypes = {
   icon: PropTypes.element.isRequired,
-  top: PropTypes.element.isRequired,
-  left: PropTypes.element.isRequired,
 
 };
 

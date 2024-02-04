@@ -11,12 +11,13 @@ module.exports = {
       xl: '1440px',
     },
     colors: {
-      'black-60': 'rgba(21, 21, 21 ,0.6)',
+      'black-60': 'rgba(21, 21, 21 ,0.8)',
       'black-87': 'rgba(0, 0, 0 ,0.87)',
       'black-100': '#0a08085c',
       white: '#ffffff',
       'black-200': 'rgba(10, 10, 10, 0.90)',
       'black-300': '#232323',
+      'black-bg': 'rgb(20 21 22)',
     },
     fontFamily: {
       sans: ['Graphik', 'sans-serif'],
@@ -83,6 +84,22 @@ module.exports = {
           '60%': { transform: 'translateY(160px)' },
           '100%': { transform: 'translate(120px)' },
         },
+        marquee: {
+          ' 0%': {
+            transform: 'translateX(100%)',
+          },
+          '100%': {
+            transform: 'translateX(-100%)',
+          },
+        },
+        fadeIn: {
+          '0%': {
+            opacity: ' 0',
+          },
+          '100%': {
+            opacity: ' 1',
+          },
+        },
       },
       animation: {
         'first-icon': 'firstIcon 30s infinite linear',
@@ -93,6 +110,8 @@ module.exports = {
         'sixth-icon': 'sixthIcon 30s infinite linear',
         'seventh-icon': 'seventhIcon 30s infinite linear',
         'waving-hand': 'wave 4s linear forwards',
+        // 'flow-icons': 'marquee 60s linear infinite',
+        // 'marquee-container': 'fadeIn 1s ease-in-out',
       },
     },
   },

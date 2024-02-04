@@ -11,9 +11,10 @@ module.exports = {
       xl: '1440px',
     },
     colors: {
+      'black-87': 'rgba(0, 0, 0 ,0.87)',
       'black-100': '#0a08085c',
       white: '#ffffff',
-      'black-200': 'rgba(19, 18, 18, 0.96)',
+      'black-200': 'rgba(16, 16, 16, 0.96)',
       'black-300': '#232323',
     },
     fontFamily: {

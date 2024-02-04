@@ -10,7 +10,7 @@ function SideBar() {
   return (
     <div className="h-screen">
       <div className="relative h-screen bg-cover bg-center" style={{ backgroundImage: `url(${SidebarImage})` }}>
-        <div className="absolute inset-0 bg-black-200">
+        <div className="absolute inset-0 bg-black-87">
           <div className="">
             <CssIcon width={80} height={80} />
           </div>

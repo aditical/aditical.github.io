@@ -18,6 +18,8 @@ module.exports = {
       'black-200': 'rgba(10, 10, 10, 0.90)',
       'black-300': '#232323',
       'black-bg': 'rgb(20 21 22)',
+      'blue-50': '#192e3b',
+      'blue-100': '#1b313c',
     },
     fontFamily: {
       sans: ['Graphik', 'sans-serif'],

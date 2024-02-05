@@ -54,48 +54,6 @@ module.exports = {
           '0%': { transform: 'translateY(50px) scale(0)' },
           '100%': { transform: 'translateY(0px) scale(1)' },
         },
-        firstIcon: {
-          '0%': { transform: 'translate(0px) translateY(0px)' },
-          '40%': { transform: 'translateY(100px)' },
-          '60%': { transform: 'translate(60px)' },
-          '100%': { transform: 'translateY(-20px)' },
-        },
-        secondIcon: {
-          '0%': { transform: 'translate(40px) translateY(40px)' },
-          '40%': { transform: 'translateY(200px) translate(40px)' },
-          '60%': { transform: 'translate(80px)' },
-          '100%': { transform: 'translateY(140px) translate(110px)' },
-        },
-        thirdIcon: {
-          '0%': { transform: 'translate(80px) translateY(120px)' },
-          '40%': { transform: 'translateY(280px) translate(60px)' },
-          '60%': { transform: 'translate(20px) translateY(60px)' },
-          '100%': { transform: 'translateY(-30px) translate(60px)' },
-        },
-        fourthIcon: {
-          '0%': { transform: 'translate(120px) translateY(40px)' },
-          '40%': { transform: 'translateY(0px) translate(20px)' },
-          '60%': { transform: 'translate(40px) translateY(160px)' },
-          '100%': { transform: 'translateY(10px) translate(40px)' },
-        },
-        fifthIcon: {
-          '0%': { transform: 'translate(160px)' },
-          '40%': { transform: 'translateY(80px)' },
-          '60%': { transform: 'translate(0px)' },
-          '100%': { transform: 'translateY(20px)' },
-        },
-        sixthIcon: {
-          '0%': { transform: 'translate(140px) translateY(20px)' },
-          '40%': { transform: 'translateY(120px)' },
-          '60%': { transform: 'translate(40px)' },
-          '100%': { transform: 'translateY(10px)' },
-        },
-        seventhIcon: {
-          '0%': { transform: 'translateY(160px)' },
-          '40%': { transform: 'translate(120px)' },
-          '60%': { transform: 'translateY(160px)' },
-          '100%': { transform: 'translate(120px)' },
-        },
         marquee: {
           ' 0%': {
             transform: 'translateX(100%)',
@@ -114,13 +72,6 @@ module.exports = {
         },
       },
       animation: {
-        'first-icon': 'firstIcon 30s infinite linear',
-        'second-icon': 'secondIcon 30s infinite linear',
-        'third-icon': 'thirdIcon 30s infinite linear',
-        'fourth-icon': 'fourthIcon 30s infinite linear',
-        'fifth-icon': 'fifthIcon 30s infinite linear',
-        'sixth-icon': 'sixthIcon 30s infinite linear',
-        'seventh-icon': 'seventhIcon 30s infinite linear',
         'waving-hand': 'wave 4s linear forwards',
         'popup-jam': 'popup 1s cubic-bezier(0.27,0.53,0.28,1.58) forwards',
         // 'flow-icons': 'marquee 60s linear infinite',

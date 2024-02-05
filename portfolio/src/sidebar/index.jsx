@@ -1,8 +1,8 @@
+/* eslint-disable import/no-extraneous-dependencies */
 /* eslint-disable no-unused-vars */
 /* eslint-disable jsx-a11y/img-redundant-alt */
 import React from 'react';
 import PropTypes from 'prop-types';
-import SidebarImage from '../assets/images/sidebar.png';
 import {
   // eslint-disable-next-line max-len
   BootstrapIcon, CssIcon, GitIcon, HtmlIcon, JsIcon, MySqlIcon, NodeIcon, NpmIcon, PostgresIcon, RailsIcon, ReactIcon, ReactNativeIcon, ReduxIcon, SassIcon, TailwindIcon, TsIcon,
@@ -18,7 +18,6 @@ function ReusableIcon({ icon }) {
 
 function SideBar() {
   return (
-
     <div className=" flex flex-row gap-7 items-center">
       <ReusableIcon icon={<HtmlIcon width={70} height={70} />} />
       <ReusableIcon icon={<CssIcon width={70} height={70} />} />
@@ -42,7 +41,6 @@ function SideBar() {
 
 ReusableIcon.propTypes = {
   icon: PropTypes.element.isRequired,
-
 };
 
 export default SideBar;

@@ -28,6 +28,8 @@ module.exports = {
       sans: ['Graphik', 'sans-serif'],
       serif: ['Merriweather', 'serif'],
       alata: ['Alata', 'sans-serif'],
+      gayathri: ['Gayathri', 'sans-serif'],
+      'encode-sans': ['Encode Sans Semi Expanded', 'sans-serif'],
     },
     extend: {
       spacing: {

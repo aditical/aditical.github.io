@@ -15,7 +15,7 @@ import myImage from './assets/images/icons8-waving-hand-emoji-96.png';
 function App() {
   return (
     // eslint-disable-next-line react/jsx-filename-extension
-    <div className="h-screen bg-black-bg font-gayathri">
+    <div className="h-screen bg-black-bg font-encode-sans">
       <div><LandingPage /></div>
       <div className="py-4">
         <div className="animate-marquee-container overflow-hidden">
@@ -30,10 +30,10 @@ function App() {
             {/* <div>Work Experience</div> */}
 
           </div>
-          <div className="w-1/3 flex flex-col gap-4 text-white-50 text-sm font-gayathri">
+          <div className="w-1/3 flex flex-col gap-4 text-white-50 text-sm">
             <div className="flex items-center gap-1">
               <p>Hello</p>
-              <img src={myImage} alt="My Image" width="40" height="40" className="animate-waving-hand" />
+              <img src={myImage} alt="My Image" width="40" height="40" className="hover:animate-waving-hand cursor-pointer" />
             </div>
             <p> Welcome to my world of coding wonders! </p>
             <p>
@@ -46,7 +46,7 @@ function App() {
         </div>
       </div>
       <hr className="my-2 border-t-2 border-black-400" />
-      <div className="text-black-footer mr-2 text-right" style={{ fontSize: '12px' }}>
+      <div className="text-black-footer mr-2 text-right font-gayathri" style={{ fontSize: '12px' }}>
         <footer>© 2024 Aditi Acharya. All rights reserved.</footer>
       </div>
     </div>

@@ -9,7 +9,7 @@ import { LaptopIcon } from '../assets/icons';
 
 function LandingPage() {
   return (
-    <div className="relative bg-cover bg-center gayathri" style={{ backgroundImage: `url(${CodeImage})` }}>
+    <div className="relative bg-cover bg-center" style={{ backgroundImage: `url(${CodeImage})` }}>
       <div className="bg-black-60 text-white-50">
         <div className="p-24 border-white w-full flex gap-8 items-center">
           <div className="border-2 rounded-full h-32 w-32 border-blue-100 shadow-xl shadow-black-200 m-0.5">

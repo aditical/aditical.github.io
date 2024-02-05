@@ -16,8 +16,11 @@ import { ReactComponent as GitIcon } from '../svg/git.svg';
 import { ReactComponent as MySqlIcon } from '../svg/mysql.svg';
 import { ReactComponent as LaptopIcon } from '../svg/laptop.svg';
 import { ReactComponent as MilestoneIcon } from '../svg/milestone.svg';
+import { ReactComponent as LinkedInIcon } from '../svg/linkedIn.svg';
+import { ReactComponent as GithubIcon } from '../svg/github.svg';
+import { ReactComponent as EmailIcon } from '../svg/email.svg';
 
 export {
   // eslint-disable-next-line max-len
-  RailsIcon, TailwindIcon, BootstrapIcon, CssIcon, HtmlIcon, JsIcon, TsIcon, NodeIcon, NpmIcon, ReactIcon, ReactNativeIcon, ReduxIcon, SassIcon, PostgresIcon, GitIcon, MySqlIcon, LaptopIcon, MilestoneIcon,
+  RailsIcon, TailwindIcon, BootstrapIcon, CssIcon, HtmlIcon, JsIcon, TsIcon, NodeIcon, NpmIcon, ReactIcon, ReactNativeIcon, ReduxIcon, SassIcon, PostgresIcon, GitIcon, MySqlIcon, LaptopIcon, MilestoneIcon, LinkedInIcon, GithubIcon, EmailIcon,
 };

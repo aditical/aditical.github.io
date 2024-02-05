@@ -1,61 +1,37 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
+/* eslint-disable jsx-a11y/img-redundant-alt */
+/* eslint-disable max-len */
+/* eslint-disable react/no-unescaped-entities */
+/* eslint-disable no-unused-vars */
 import React from 'react';
 import LandingPage from './home/landingPage';
-import {
-  // eslint-disable-next-line max-len
-  BootstrapIcon, CssIcon, HtmlIcon, JsIcon, NodeIcon, NpmIcon, PostgresIcon, RailsIcon, ReactIcon, ReactNativeIcon, ReduxIcon, SassIcon, TailwindIcon, TsIcon,
-} from './assets/icons';
+import SideBar from './sidebar';
+import Footer from './home/footer';
+import ShortIntro from './home/shortIntro';
+import Work from './home/work';
 
 function App() {
   return (
     // eslint-disable-next-line react/jsx-filename-extension
-    <div className="mainPage flex">
-      <div className="flex-auto w-14">
-        <div className="animate-first-icon">
-          <CssIcon />
-        </div>
-        <div className="animate-second-icon">
-          <BootstrapIcon />
-        </div>
-        <div className="animate-third-icon">
-          <HtmlIcon />
-        </div>
-        <div className="animate-fourth-icon">
-          <TailwindIcon />
-        </div>
-        <div className="animate-fifth-icon">
-          <SassIcon />
-        </div>
-        <div className="animate-sixth-icon">
-          <JsIcon />
-        </div>
-        <div className="animate-seventh-icon">
-          <TsIcon />
-        </div>
-        <div className="animate-first-icon">
-          <NpmIcon />
-        </div>
-        <div className="animate-second-icon">
-          <ReactIcon />
-        </div>
-        <div className="animate-third-icon">
-          <ReactNativeIcon />
-        </div>
-        <div className="animate-fourth-icon">
-          <ReduxIcon />
-        </div>
-        <div className="animate-fifth-icon">
-          <NodeIcon />
-        </div>
-        <div className="animate-sixth-icon">
-          <RailsIcon />
-        </div>
-        <div className="animate-seventh-icon">
-          <PostgresIcon />
+    <div className="h-screen bg-black-bg font-encode-sans">
+      <div><LandingPage /></div>
+      <div className="py-4">
+        <div className="animate-marquee-container overflow-hidden">
+          <div className="marquee-content whitespace-nowrap animate-flow-icons tex-white flex flex-row">
+            <SideBar />
+          </div>
         </div>
       </div>
-      <div className="flex-auto w-9/12">
-        <LandingPage />
+      <div className="mt-2 px-8 text-white " style={{ height: '45%' }}>
+        <div className="flex justify-around flex-row">
+          <div className="w-1/2">
+            <Work />
+          </div>
+          <ShortIntro />
+        </div>
       </div>
+      <hr className="my-2 border-t-2 border-black-400" />
+      <Footer />
     </div>
   );
 }
